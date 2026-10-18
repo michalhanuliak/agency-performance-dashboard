@@ -1,0 +1,101 @@
+id,timestamp,type,severity,response_time_seconds,call_answer_time_seconds,ai_summary
+7c40f47f-0977-4208-969d-eecbc7190ecd,2025-01-05T08:07:26,Police,Critical,540,9,Driver followed the caller home after a road rage incident.
+39e42904-441b-4787-9ed7-b969ae72ad3b,2025-01-08T01:20:56,Traffic,Medium,430,16,School bus rear-ended at a stop. Several children with minor bumps.
+928d1009-8acc-45bc-a3d4-60d4da086138,2025-01-08T16:48:13,Medical,Medium,301,13,Caller reports her father has slurred speech and drooping on one side of the face.
+8c8087c3-d2e4-4d4c-90a4-6ab4f62042b1,2025-01-16T19:33:49,Medical,Medium,685,3,Caller reports a diabetic relative who is confused and sweating heavily.
+8245f69f-6841-4b5d-abe7-5665d42b4381,2025-01-18T23:13:54,Traffic,High,380,17,School bus rear-ended at a stop. Several children with minor bumps.
+621e7d35-db91-448a-a289-84ccc288cf49,2025-01-19T06:55:22,Medical,Low,436,16,Worker cut his hand on machinery at a warehouse. Bleeding controlled with a towel.
+de6cf665-2264-4f73-98bc-33d947381d48,2025-01-20T11:14:18,Police,Critical,740,9,Suspicious person checking car door handles in a parking lot.
+0515c158-08c8-4751-975b-e7b7015fd77b,2025-01-22T04:23:25,Police,Critical,572,16,Vandals spray painting a school wall. Caller watching from across the street.
+991cbf35-95bb-4079-ae78-e1edc0676757,2025-01-25T15:55:58,Traffic,Medium,334,18,Car slid into a ditch on an icy road. Driver unable to open the door.
+a3491c67-e3e2-4b31-a9f4-af5b7d97820f,2025-01-29T09:33:56,Fire,Critical,311,6,Shed fire in a backyard close to a neighboring fence.
+53483fde-155b-4f35-9147-480199dcffbc,2025-01-29T23:02:06,Fire,Medium,509,5,Dumpster fire behind a grocery store spreading toward the loading dock.
+88e90ece-0c7d-4605-89df-cd5f152b4400,2025-01-30T18:17:57,Traffic,Low,711,12,Car slid into a ditch on an icy road. Driver unable to open the door.
+cb6b38b8-6c20-4213-8c04-2b1ae432380d,2025-02-05T13:54:32,Fire,High,265,7,Caller smells gas and hears hissing near a restaurant's back door.
+f7475472-0cea-44d4-982b-e1bcfe510e68,2025-02-05T20:49:10,Traffic,Critical,704,22,Pedestrian struck in a crosswalk. Conscious with a leg injury.
+8d7d5ce8-adfc-4e23-b3c4-3a38e6f08e4a,2025-02-09T20:09:32,Fire,High,552,7,Smoke coming from the kitchen window of a second-floor apartment.
+6058667a-4674-4979-b646-03da407a3199,2025-02-10T09:38:28,Traffic,Low,468,13,Car hit a utility pole. Wires down across the road.
+9030dac6-fbbf-4b26-83f5-bfa6467005cf,2025-02-22T20:24:47,Medical,Medium,537,11,Elderly resident fell at home and cannot stand up. Conscious and breathing.
+7544d743-d974-495b-ba82-49ad4ebad3c5,2025-02-23T03:04:44,Police,High,183,11,"Shoplifting suspect detained by store security, becoming aggressive."
+933dbafc-6527-4ad0-8de6-d83248188bf7,2025-02-25T21:11:15,Fire,Low,456,19,Vehicle on fire in a parking garage. No occupants inside.
+826080cd-21af-4239-942d-4228b66ecd3b,2025-02-27T01:00:17,Medical,High,717,21,Adult male unresponsive at a bus stop. Bystander has started CPR.
+28517aef-0121-4f27-a4fa-c036ace6de63,2025-02-27T05:03:38,Medical,Low,547,14,Adult male unresponsive at a bus stop. Bystander has started CPR.
+9454c1e5-c2a0-4547-9fb7-7d7a6cedf3de,2025-03-10T08:12:19,Fire,Critical,473,11,Smoke alarm sounding in a vacant office building with visible haze.
+0333c1c4-0da4-46dd-8096-876f00555d32,2025-03-17T13:12:55,Traffic,High,271,21,Car hit a utility pole. Wires down across the road.
+716ae92c-085c-475e-94bb-af7b2e6b8ce4,2025-03-17T22:04:42,Medical,Low,424,15,Caller reports a diabetic relative who is confused and sweating heavily.
+76a9cf17-cda7-4a8b-806e-88d81008d106,2025-03-17T22:42:28,Police,Critical,634,9,"Shoplifting suspect detained by store security, becoming aggressive."
+a2a3289a-28e3-4fdb-96cd-2c16d1196677,2025-03-22T11:23:44,Police,High,550,21,"Shoplifting suspect detained by store security, becoming aggressive."
+5db327fd-f5e8-4942-8614-639be5cc5287,2025-04-02T00:35:42,Traffic,Medium,645,17,Two-car collision at an intersection. One driver complains of neck pain.
+88490363-db14-4373-b729-5d929703b1c4,2025-04-03T21:48:48,Fire,Low,334,7,Vehicle on fire in a parking garage. No occupants inside.
+c773bc86-2abf-4c36-b528-d045c7e7f4ed,2025-04-21T02:15:14,Traffic,Low,831,13,Pedestrian struck in a crosswalk. Conscious with a leg injury.
+f7a9b2d7-0de8-4bfe-be5c-fafe2c964734,2025-05-11T08:14:24,Medical,Low,764,17,Caller reports her father has slurred speech and drooping on one side of the face.
+aa754435-c03b-4fef-b719-2fec3aa9c500,2025-05-12T06:36:57,Police,Medium,830,13,Alarm company reports a triggered alarm at a closed pharmacy.
+0630ba37-4044-4937-a662-a4fb46c5bb08,2025-05-19T22:15:01,Fire,Critical,622,20,Chimney fire reported with sparks landing on the roof.
+8ed113c7-2d51-42d0-acd6-21f2f3a02400,2025-05-19T22:58:07,Fire,High,212,6,Chimney fire reported with sparks landing on the roof.
+1a7afde5-6d59-4ddf-8ca8-3ab32177132a,2025-05-24T17:41:05,Medical,Low,599,10,Adult male unresponsive at a bus stop. Bystander has started CPR.
+5268182c-d278-4e61-bd86-78660875ff1e,2025-05-25T21:01:24,Medical,Critical,308,7,Child with a severe allergic reaction after eating at a restaurant. Lips swelling.
+2f99c125-8c42-40da-9b81-cc65c64ea159,2025-05-27T10:09:17,Traffic,Critical,422,25,Traffic lights out at a busy intersection during rush hour.
+6c15bd71-a752-4136-9590-8055db51ba54,2025-05-27T18:25:04,Fire,Low,451,21,Electrical fire in a basement panel. Residents have evacuated.
+e189a279-e576-424c-bbb2-cd03bdd0e909,2025-05-28T02:59:24,Fire,Medium,519,24,Chimney fire reported with sparks landing on the roof.
+e0135742-1b65-4d91-bb86-91b6b38f7153,2025-05-29T21:33:06,Medical,Critical,255,24,Cyclist reports a dislocated shoulder after a fall on a trail.
+9677f4b1-2535-4ccc-a1bb-f78cf2df572c,2025-05-29T23:50:33,Medical,Medium,543,13,Worker cut his hand on machinery at a warehouse. Bleeding controlled with a towel.
+7fb910bc-8f72-4435-850d-f9f7d21f99f8,2025-06-05T11:03:37,Fire,Critical,300,9,Vehicle on fire in a parking garage. No occupants inside.
+398ecac4-88b5-4d5b-8f6d-fe9394d93d87,2025-06-05T15:13:31,Police,Medium,849,13,Suspicious person checking car door handles in a parking lot.
+2a47a3d8-4afb-48b2-af15-8493fa19fd59,2025-06-12T21:23:34,Police,High,283,20,Suspicious person checking car door handles in a parking lot.
+36b031ca-92a5-49e7-a55e-be125b1b075e,2025-06-13T16:58:24,Fire,Medium,231,3,Electrical fire in a basement panel. Residents have evacuated.
+29529ddb-f06d-421f-8f0b-418f07aab0a4,2025-06-16T19:44:18,Medical,High,277,24,Worker cut his hand on machinery at a warehouse. Bleeding controlled with a towel.
+4e6eee6c-a6eb-4d95-9605-a07bf5e192b5,2025-06-26T01:45:03,Fire,Critical,538,17,"Brush fire along the highway shoulder, wind pushing it toward houses."
+202d6ff9-579b-4fd5-91d9-f11f283a139b,2025-06-30T19:52:22,Traffic,Critical,692,4,Two-car collision at an intersection. One driver complains of neck pain.
+e5c26547-af0b-497a-b82c-dc3f41c1997d,2025-07-11T03:30:53,Traffic,High,308,16,Two-car collision at an intersection. One driver complains of neck pain.
+2c8484b8-2b01-4b4c-b30b-c31ee4930a56,2025-07-15T13:08:41,Fire,High,510,3,Dumpster fire behind a grocery store spreading toward the loading dock.
+dcd79487-5e54-4100-a445-bde7c8a34de5,2025-07-17T20:05:28,Fire,Low,417,3,Shed fire in a backyard close to a neighboring fence.
+69089c0c-1b97-4439-84ad-f4b879ec8cbb,2025-07-24T10:03:07,Police,Medium,415,16,Vandals spray painting a school wall. Caller watching from across the street.
+b869c85a-0549-486b-b802-bc974c930d45,2025-07-27T16:08:49,Fire,Medium,398,21,"Small fire in a laundromat dryer. Staff used an extinguisher, smoke remains."
+b308319f-d67f-4f52-a384-b4f04d866b72,2025-08-02T09:46:03,Traffic,Medium,289,22,Car hit a utility pole. Wires down across the road.
+1f3d727e-823f-412b-b3c4-767c14f892be,2025-08-22T03:54:22,Fire,Critical,279,20,Chimney fire reported with sparks landing on the roof.
+3bb7c2e6-0d12-4fdc-9640-46113a8f7f27,2025-08-22T23:38:47,Police,High,707,21,Caller reports a break-in at a neighbor's house. Back door is open.
+c05fca3b-1bda-490f-aa5c-d1a6624144cb,2025-08-29T13:59:14,Fire,Critical,407,4,Electrical fire in a basement panel. Residents have evacuated.
+ee248817-80dc-4fba-be15-9e0ac4f07d9d,2025-09-01T10:01:38,Medical,Medium,496,21,Child with a severe allergic reaction after eating at a restaurant. Lips swelling.
+a422640c-2c59-45d5-ae20-90ea55e54891,2025-09-03T17:04:16,Traffic,Critical,300,22,School bus rear-ended at a stop. Several children with minor bumps.
+b8da9654-d256-4e89-aabf-c642e5ae9e52,2025-09-10T16:38:28,Fire,Low,519,13,Dumpster fire behind a grocery store spreading toward the loading dock.
+47f39580-9209-42f3-a45a-5e6e955e2d41,2025-09-13T03:27:50,Police,Low,502,5,Caller reports a break-in at a neighbor's house. Back door is open.
+584bcec8-cd55-4f74-beaf-8019c67c8f6f,2025-09-14T14:54:05,Police,Critical,181,18,Caller reports a missing 8-year-old last seen at the playground.
+df079093-ca3c-4ef8-ad41-7435cef841ea,2025-09-21T02:22:43,Fire,Critical,457,17,Electrical fire in a basement panel. Residents have evacuated.
+631ee22d-8729-4e59-ba56-a26f89478dc2,2025-09-21T15:23:51,Medical,Medium,317,25,Child with a severe allergic reaction after eating at a restaurant. Lips swelling.
+bed6de5c-0460-47fc-aa5a-9a3ed9d1048a,2025-09-23T23:06:07,Police,Medium,269,22,Driver followed the caller home after a road rage incident.
+f6b4b1e1-56c8-429e-9374-b4fce93895f6,2025-09-24T00:00:40,Police,Critical,637,6,"Group fighting outside a bar, one person reported on the ground."
+63bd2a39-0b32-4fe6-9b92-dd7b97570e96,2025-09-24T04:06:16,Medical,Critical,404,7,Cyclist reports a dislocated shoulder after a fall on a trail.
+315952bc-bbc0-4e52-9347-c10629db4c2e,2025-09-28T15:34:38,Medical,High,454,21,Caller reports her father has slurred speech and drooping on one side of the face.
+98d33e41-dba4-4eb7-8b89-672c2ed99b1b,2025-09-30T01:58:21,Police,High,247,15,Suspicious person checking car door handles in a parking lot.
+a7ee1b03-dba2-4d98-8f48-cea8528d7e2a,2025-10-01T07:13:24,Medical,Low,412,9,Cyclist reports a dislocated shoulder after a fall on a trail.
+82690a9e-5288-45e7-8c5f-19fc0cc0e593,2025-10-06T06:55:05,Fire,High,400,23,Smoke coming from the kitchen window of a second-floor apartment.
+c94e8ed4-32b9-408e-8e64-c541e5866392,2025-10-09T00:28:47,Medical,Medium,454,11,Teen reports a friend with a possible overdose. Friend is breathing slowly.
+c1d62ca4-9fe1-4695-a7c9-3f9c00ebb156,2025-10-09T19:59:59,Traffic,High,396,14,Pedestrian struck in a crosswalk. Conscious with a leg injury.
+cb6742de-09da-412b-a448-3e797959fb79,2025-10-14T02:49:57,Police,High,451,18,Caller reports a break-in at a neighbor's house. Back door is open.
+0a9518e9-c085-4c6f-ac05-4ca0ea7ffcc0,2025-10-14T15:45:27,Police,Low,873,25,Suspicious person checking car door handles in a parking lot.
+0e249753-44ba-46d5-bce7-e470ea1c99f5,2025-10-14T18:08:04,Medical,High,348,13,Teen reports a friend with a possible overdose. Friend is breathing slowly.
+4faed527-6e81-495b-aee6-1f2bb2e78407,2025-10-17T15:33:32,Medical,Critical,422,21,Adult male unresponsive at a bus stop. Bystander has started CPR.
+e2f066f1-cc3e-4e56-8a3c-92fb3bf0ef09,2025-10-17T19:59:54,Medical,High,578,12,Worker cut his hand on machinery at a warehouse. Bleeding controlled with a towel.
+adf710c7-e79a-4eeb-b7c7-285ae90d8642,2025-10-25T00:24:09,Medical,High,684,14,Cyclist reports a dislocated shoulder after a fall on a trail.
+f789e578-e98d-4ad6-94b1-c6cec6be26c8,2025-10-26T04:50:14,Fire,Medium,297,21,Electrical fire in a basement panel. Residents have evacuated.
+8accf8b1-de7c-4c49-b1e1-af7a472a9cfa,2025-10-29T19:30:57,Traffic,High,416,19,Wrong-way driver reported on the highway heading north.
+f281e323-32d0-4ad3-8d2d-4c9614921458,2025-10-30T16:58:37,Medical,Low,319,23,Teen reports a friend with a possible overdose. Friend is breathing slowly.
+e7ae1ee1-abb1-4fed-a867-640fedab73c9,2025-11-04T18:21:41,Fire,Low,475,3,Chimney fire reported with sparks landing on the roof.
+756f9013-c611-4ada-aa1c-cb31de6e3bf0,2025-11-07T07:38:47,Traffic,Medium,360,6,Wrong-way driver reported on the highway heading north.
+3e691331-cd22-44cd-b0bb-c5e3b13359b8,2025-11-07T09:16:04,Fire,Medium,347,17,"Brush fire along the highway shoulder, wind pushing it toward houses."
+e163832a-0975-448f-9579-bbfe9225b912,2025-11-12T21:00:17,Fire,Low,656,23,Chimney fire reported with sparks landing on the roof.
+f7d2cac7-a871-4510-a9d7-4cc8c9a67f3c,2025-11-17T17:11:15,Medical,High,593,5,Elderly resident fell at home and cannot stand up. Conscious and breathing.
+b4ea20b9-f4ff-433e-b8a5-8693a8378220,2025-11-20T11:05:25,Police,High,766,3,Suspicious person checking car door handles in a parking lot.
+c71bac03-b03b-41ec-991a-7ed3afdd6160,2025-11-21T17:08:35,Fire,Critical,618,6,Caller smells gas and hears hissing near a restaurant's back door.
+f8646707-d91b-41ef-8b47-676c412c6de6,2025-11-26T07:04:16,Traffic,High,683,11,"Motorcyclist down on an off-ramp. Helmet on, not moving much."
+4d13f197-c70b-449b-a10c-71d154760586,2025-11-28T00:35:45,Traffic,High,661,15,Two-car collision at an intersection. One driver complains of neck pain.
+61914b29-a07b-48de-9136-aa0ca9bc5215,2025-11-29T04:17:32,Police,Low,804,13,Suspicious person checking car door handles in a parking lot.
+74aa68c1-68e3-41fb-96ea-1f2ab73637b1,2025-11-29T21:53:44,Traffic,Low,419,7,Truck jackknifed across two lanes of the interstate. Traffic stopped.
+1d2b7c27-c872-413b-ae8b-acdafb2134c6,2025-11-30T14:39:22,Fire,Low,338,5,Electrical fire in a basement panel. Residents have evacuated.
+dd9d2e3a-0377-46e9-80b3-2fb6deb44fb7,2025-12-02T00:07:30,Police,Medium,387,23,Loud argument and breaking glass heard from the apartment upstairs.
+ecb6368b-a89a-477a-8a44-7c0d2bcd117d,2025-12-15T23:03:41,Fire,Low,295,11,Electrical fire in a basement panel. Residents have evacuated.
+0b47eac1-db8a-4ebc-930e-605a408c052b,2025-12-16T22:07:57,Fire,Low,427,6,Smoke coming from the kitchen window of a second-floor apartment.
+51e414df-96d1-4eb9-b648-b7128fe8e82c,2025-12-21T17:11:44,Medical,Critical,278,11,Pregnant woman reports contractions two minutes apart. No transport available.
+b30b2e54-1e7c-4cd1-bf8f-457e6e53f888,2025-12-25T15:30:07,Traffic,Critical,607,5,School bus rear-ended at a stop. Several children with minor bumps.
+56d46858-5980-4ca7-8cbd-921b008544d9,2025-12-29T20:41:16,Medical,High,636,4,Worker cut his hand on machinery at a warehouse. Bleeding controlled with a towel.
+7ce578fd-ad4a-4dc9-94c3-f55c7e6b680c,2025-12-29T23:09:38,Police,Medium,410,11,Caller reports her wallet stolen on a crowded train platform.

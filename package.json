@@ -1,0 +1,28 @@
+{
+  "name": "agency-performance-dashboard",
+  "version": "1.0.0",
+  "description": "Full-stack analytical dashboard for 911 supervisors to monitor operational metrics and identify trends in emergency response data.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev:api": "cd api && python3 -m uvicorn app.main:app --reload",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "npm run dev:api & npm run dev:frontend",
+    "test:api": "cd api && python3 -m pytest -v",
+    "test:frontend": "cd frontend && npx vitest run",
+    "lint:frontend": "cd frontend && npm run lint",
+    "build:frontend": "cd frontend && npm run build",
+    "verify": "npm run test:api && npm run test:frontend && npm run lint:frontend && npm run build:frontend",
+    "test:e2e": "npx playwright test",
+    "verify:all": "npm run verify && npm run test:e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}

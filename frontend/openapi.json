@@ -1,0 +1,605 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Agency Performance Dashboard API",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/incidents": {
+      "get": {
+        "tags": [
+          "incidents"
+        ],
+        "summary": "List Incidents",
+        "operationId": "list_incidents_incidents_get",
+        "parameters": [
+          {
+            "name": "type",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "$ref": "#/components/schemas/IncidentType"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Type"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "title": "Page"
+            }
+          },
+          {
+            "name": "page_size",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 100,
+              "minimum": 1,
+              "default": 20,
+              "title": "Page Size"
+            }
+          },
+          {
+            "name": "sort_by",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "enum": [
+                "timestamp",
+                "type",
+                "severity",
+                "response_time_seconds",
+                "call_answer_time_seconds"
+              ],
+              "type": "string",
+              "default": "timestamp",
+              "title": "Sort By"
+            }
+          },
+          {
+            "name": "sort_dir",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "type": "string",
+              "default": "asc",
+              "title": "Sort Dir"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaginatedResponse_IncidentResponse_"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/incidents/recent": {
+      "get": {
+        "tags": [
+          "incidents"
+        ],
+        "summary": "Recent Incidents",
+        "operationId": "recent_incidents_incidents_recent_get",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 20,
+              "minimum": 1,
+              "default": 5,
+              "title": "Limit"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IncidentResponse"
+                  },
+                  "title": "Response Recent Incidents Incidents Recent Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/stats": {
+      "get": {
+        "tags": [
+          "stats"
+        ],
+        "summary": "Get Stats",
+        "operationId": "get_stats_stats_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatsResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/dashboard/config": {
+      "get": {
+        "tags": [
+          "dashboard"
+        ],
+        "summary": "Get Dashboard Config",
+        "operationId": "get_dashboard_config_dashboard_config_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DashboardConfigResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "dashboard"
+        ],
+        "summary": "Put Dashboard Config",
+        "operationId": "put_dashboard_config_dashboard_config_put",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DashboardConfigRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DashboardConfigResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DashboardConfigRequest": {
+        "properties": {
+          "widgets": {
+            "items": {
+              "$ref": "#/components/schemas/WidgetConfigItem"
+            },
+            "type": "array",
+            "title": "Widgets"
+          }
+        },
+        "type": "object",
+        "required": [
+          "widgets"
+        ],
+        "title": "DashboardConfigRequest"
+      },
+      "DashboardConfigResponse": {
+        "properties": {
+          "widgets": {
+            "items": {
+              "$ref": "#/components/schemas/WidgetConfigItem"
+            },
+            "type": "array",
+            "title": "Widgets"
+          }
+        },
+        "type": "object",
+        "required": [
+          "widgets"
+        ],
+        "title": "DashboardConfigResponse"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "IncidentResponse": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Timestamp"
+          },
+          "type": {
+            "$ref": "#/components/schemas/IncidentType"
+          },
+          "severity": {
+            "$ref": "#/components/schemas/Severity"
+          },
+          "response_time_seconds": {
+            "type": "integer",
+            "title": "Response Time Seconds"
+          },
+          "call_answer_time_seconds": {
+            "type": "integer",
+            "title": "Call Answer Time Seconds"
+          },
+          "ai_summary": {
+            "type": "string",
+            "title": "Ai Summary"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "timestamp",
+          "type",
+          "severity",
+          "response_time_seconds",
+          "call_answer_time_seconds",
+          "ai_summary"
+        ],
+        "title": "IncidentResponse"
+      },
+      "IncidentType": {
+        "type": "string",
+        "enum": [
+          "Fire",
+          "Medical",
+          "Police",
+          "Traffic"
+        ],
+        "title": "IncidentType"
+      },
+      "MonthlyCount": {
+        "properties": {
+          "month": {
+            "type": "string",
+            "title": "Month"
+          },
+          "count": {
+            "type": "integer",
+            "title": "Count"
+          }
+        },
+        "type": "object",
+        "required": [
+          "month",
+          "count"
+        ],
+        "title": "MonthlyCount"
+      },
+      "PaginatedResponse_IncidentResponse_": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/IncidentResponse"
+            },
+            "type": "array",
+            "title": "Items"
+          },
+          "total": {
+            "type": "integer",
+            "title": "Total"
+          },
+          "page": {
+            "type": "integer",
+            "title": "Page"
+          },
+          "page_size": {
+            "type": "integer",
+            "title": "Page Size"
+          },
+          "total_pages": {
+            "type": "integer",
+            "title": "Total Pages"
+          }
+        },
+        "type": "object",
+        "required": [
+          "items",
+          "total",
+          "page",
+          "page_size",
+          "total_pages"
+        ],
+        "title": "PaginatedResponse[IncidentResponse]"
+      },
+      "ResponseTimeByType": {
+        "properties": {
+          "type": {
+            "$ref": "#/components/schemas/IncidentType"
+          },
+          "avg_response_time": {
+            "type": "number",
+            "title": "Avg Response Time"
+          }
+        },
+        "type": "object",
+        "required": [
+          "type",
+          "avg_response_time"
+        ],
+        "title": "ResponseTimeByType"
+      },
+      "Severity": {
+        "type": "string",
+        "enum": [
+          "Critical",
+          "High",
+          "Medium",
+          "Low"
+        ],
+        "title": "Severity"
+      },
+      "SeverityCount": {
+        "properties": {
+          "severity": {
+            "$ref": "#/components/schemas/Severity"
+          },
+          "count": {
+            "type": "integer",
+            "title": "Count"
+          }
+        },
+        "type": "object",
+        "required": [
+          "severity",
+          "count"
+        ],
+        "title": "SeverityCount"
+      },
+      "StatsResponse": {
+        "properties": {
+          "total_incidents": {
+            "type": "integer",
+            "title": "Total Incidents"
+          },
+          "avg_call_answer_time": {
+            "type": "number",
+            "title": "Avg Call Answer Time"
+          },
+          "avg_response_time_by_type": {
+            "items": {
+              "$ref": "#/components/schemas/ResponseTimeByType"
+            },
+            "type": "array",
+            "title": "Avg Response Time By Type"
+          },
+          "severity_counts": {
+            "items": {
+              "$ref": "#/components/schemas/SeverityCount"
+            },
+            "type": "array",
+            "title": "Severity Counts"
+          },
+          "monthly_counts": {
+            "items": {
+              "$ref": "#/components/schemas/MonthlyCount"
+            },
+            "type": "array",
+            "title": "Monthly Counts"
+          },
+          "trends": {
+            "$ref": "#/components/schemas/TrendData"
+          }
+        },
+        "type": "object",
+        "required": [
+          "total_incidents",
+          "avg_call_answer_time",
+          "avg_response_time_by_type",
+          "severity_counts",
+          "monthly_counts",
+          "trends"
+        ],
+        "title": "StatsResponse"
+      },
+      "TrendData": {
+        "properties": {
+          "total_incidents": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Total Incidents"
+          },
+          "avg_call_answer_time": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Avg Call Answer Time"
+          },
+          "avg_response_time": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Avg Response Time"
+          },
+          "critical_incidents": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Critical Incidents"
+          }
+        },
+        "type": "object",
+        "title": "TrendData"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "WidgetConfigItem": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "col_span": {
+            "type": "integer",
+            "enum": [
+              1,
+              2,
+              4
+            ],
+            "title": "Col Span"
+          },
+          "visible": {
+            "type": "boolean",
+            "title": "Visible"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "col_span",
+          "visible"
+        ],
+        "title": "WidgetConfigItem"
+      }
+    }
+  }
+}

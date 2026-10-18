@@ -1,0 +1,12 @@
+*.db
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.env
+node_modules/
+dist/
+test-results/
+.claude/
+docs/design/
+docs/plans/
