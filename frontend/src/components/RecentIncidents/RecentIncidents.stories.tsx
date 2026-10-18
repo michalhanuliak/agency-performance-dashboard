@@ -23,7 +23,7 @@ export const Default: Story = {
         time: "8 min ago",
         type: "Fire",
         severity: "High",
-        summary: "Structure fire at warehouse on Industrial Blvd, multiple units responding.",
+        summary: "Smoke showing from a warehouse roof on Industrial Blvd.",
       },
       {
         id: "INC-003",

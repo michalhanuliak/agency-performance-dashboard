@@ -19,8 +19,8 @@
     "verify:all": "npm run verify && npm run test:e2e"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Michal Hanuliak",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.58.2"

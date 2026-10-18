@@ -23,7 +23,7 @@ export const Default: Story = {
         severity: "High",
         responseTime: 300,
         callAnswerTime: 5,
-        aiSummary: "Grill fire spread to fence",
+        aiSummary: "Dumpster fire behind a store",
       },
       {
         id: "2",
@@ -32,7 +32,7 @@ export const Default: Story = {
         severity: "Critical",
         responseTime: 500,
         callAnswerTime: 10,
-        aiSummary: "Chest pain reported",
+        aiSummary: "Fall at home, patient conscious",
       },
       {
         id: "3",
@@ -41,7 +41,7 @@ export const Default: Story = {
         severity: "Medium",
         responseTime: 400,
         callAnswerTime: 8,
-        aiSummary: "Burglary in progress",
+        aiSummary: "Suspicious person in a parking lot",
       },
     ],
   },

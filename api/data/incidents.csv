@@ -1,7 +1,7 @@
 id,timestamp,type,severity,response_time_seconds,call_answer_time_seconds,ai_summary
 7c40f47f-0977-4208-969d-eecbc7190ecd,2025-01-05T08:07:26,Police,Critical,540,9,Driver followed the caller home after a road rage incident.
 39e42904-441b-4787-9ed7-b969ae72ad3b,2025-01-08T01:20:56,Traffic,Medium,430,16,School bus rear-ended at a stop. Several children with minor bumps.
-928d1009-8acc-45bc-a3d4-60d4da086138,2025-01-08T16:48:13,Medical,Medium,301,13,Caller reports her father has slurred speech and drooping on one side of the face.
+928d1009-8acc-45bc-a3d4-60d4da086138,2025-01-08T16:48:13,Medical,Medium,301,13,Caller says her father suddenly can't lift his left arm and is hard to understand.
 8c8087c3-d2e4-4d4c-90a4-6ab4f62042b1,2025-01-16T19:33:49,Medical,Medium,685,3,Caller reports a diabetic relative who is confused and sweating heavily.
 8245f69f-6841-4b5d-abe7-5665d42b4381,2025-01-18T23:13:54,Traffic,High,380,17,School bus rear-ended at a stop. Several children with minor bumps.
 621e7d35-db91-448a-a289-84ccc288cf49,2025-01-19T06:55:22,Medical,Low,436,16,Worker cut his hand on machinery at a warehouse. Bleeding controlled with a towel.
@@ -12,7 +12,7 @@ a3491c67-e3e2-4b31-a9f4-af5b7d97820f,2025-01-29T09:33:56,Fire,Critical,311,6,She
 53483fde-155b-4f35-9147-480199dcffbc,2025-01-29T23:02:06,Fire,Medium,509,5,Dumpster fire behind a grocery store spreading toward the loading dock.
 88e90ece-0c7d-4605-89df-cd5f152b4400,2025-01-30T18:17:57,Traffic,Low,711,12,Car slid into a ditch on an icy road. Driver unable to open the door.
 cb6b38b8-6c20-4213-8c04-2b1ae432380d,2025-02-05T13:54:32,Fire,High,265,7,Caller smells gas and hears hissing near a restaurant's back door.
-f7475472-0cea-44d4-982b-e1bcfe510e68,2025-02-05T20:49:10,Traffic,Critical,704,22,Pedestrian struck in a crosswalk. Conscious with a leg injury.
+f7475472-0cea-44d4-982b-e1bcfe510e68,2025-02-05T20:49:10,Traffic,Critical,704,22,"Pedestrian hit by a turning car. Sitting up, holding his knee."
 8d7d5ce8-adfc-4e23-b3c4-3a38e6f08e4a,2025-02-09T20:09:32,Fire,High,552,7,Smoke coming from the kitchen window of a second-floor apartment.
 6058667a-4674-4979-b646-03da407a3199,2025-02-10T09:38:28,Traffic,Low,468,13,Car hit a utility pole. Wires down across the road.
 9030dac6-fbbf-4b26-83f5-bfa6467005cf,2025-02-22T20:24:47,Medical,Medium,537,11,Elderly resident fell at home and cannot stand up. Conscious and breathing.
@@ -27,8 +27,8 @@ f7475472-0cea-44d4-982b-e1bcfe510e68,2025-02-05T20:49:10,Traffic,Critical,704,22
 a2a3289a-28e3-4fdb-96cd-2c16d1196677,2025-03-22T11:23:44,Police,High,550,21,"Shoplifting suspect detained by store security, becoming aggressive."
 5db327fd-f5e8-4942-8614-639be5cc5287,2025-04-02T00:35:42,Traffic,Medium,645,17,Two-car collision at an intersection. One driver complains of neck pain.
 88490363-db14-4373-b729-5d929703b1c4,2025-04-03T21:48:48,Fire,Low,334,7,Vehicle on fire in a parking garage. No occupants inside.
-c773bc86-2abf-4c36-b528-d045c7e7f4ed,2025-04-21T02:15:14,Traffic,Low,831,13,Pedestrian struck in a crosswalk. Conscious with a leg injury.
-f7a9b2d7-0de8-4bfe-be5c-fafe2c964734,2025-05-11T08:14:24,Medical,Low,764,17,Caller reports her father has slurred speech and drooping on one side of the face.
+c773bc86-2abf-4c36-b528-d045c7e7f4ed,2025-04-21T02:15:14,Traffic,Low,831,13,"Pedestrian hit by a turning car. Sitting up, holding his knee."
+f7a9b2d7-0de8-4bfe-be5c-fafe2c964734,2025-05-11T08:14:24,Medical,Low,764,17,Caller says her father suddenly can't lift his left arm and is hard to understand.
 aa754435-c03b-4fef-b719-2fec3aa9c500,2025-05-12T06:36:57,Police,Medium,830,13,Alarm company reports a triggered alarm at a closed pharmacy.
 0630ba37-4044-4937-a662-a4fb46c5bb08,2025-05-19T22:15:01,Fire,Critical,622,20,Chimney fire reported with sparks landing on the roof.
 8ed113c7-2d51-42d0-acd6-21f2f3a02400,2025-05-19T22:58:07,Fire,High,212,6,Chimney fire reported with sparks landing on the roof.
@@ -65,12 +65,12 @@ df079093-ca3c-4ef8-ad41-7435cef841ea,2025-09-21T02:22:43,Fire,Critical,457,17,El
 bed6de5c-0460-47fc-aa5a-9a3ed9d1048a,2025-09-23T23:06:07,Police,Medium,269,22,Driver followed the caller home after a road rage incident.
 f6b4b1e1-56c8-429e-9374-b4fce93895f6,2025-09-24T00:00:40,Police,Critical,637,6,"Group fighting outside a bar, one person reported on the ground."
 63bd2a39-0b32-4fe6-9b92-dd7b97570e96,2025-09-24T04:06:16,Medical,Critical,404,7,Cyclist reports a dislocated shoulder after a fall on a trail.
-315952bc-bbc0-4e52-9347-c10629db4c2e,2025-09-28T15:34:38,Medical,High,454,21,Caller reports her father has slurred speech and drooping on one side of the face.
+315952bc-bbc0-4e52-9347-c10629db4c2e,2025-09-28T15:34:38,Medical,High,454,21,Caller says her father suddenly can't lift his left arm and is hard to understand.
 98d33e41-dba4-4eb7-8b89-672c2ed99b1b,2025-09-30T01:58:21,Police,High,247,15,Suspicious person checking car door handles in a parking lot.
 a7ee1b03-dba2-4d98-8f48-cea8528d7e2a,2025-10-01T07:13:24,Medical,Low,412,9,Cyclist reports a dislocated shoulder after a fall on a trail.
 82690a9e-5288-45e7-8c5f-19fc0cc0e593,2025-10-06T06:55:05,Fire,High,400,23,Smoke coming from the kitchen window of a second-floor apartment.
 c94e8ed4-32b9-408e-8e64-c541e5866392,2025-10-09T00:28:47,Medical,Medium,454,11,Teen reports a friend with a possible overdose. Friend is breathing slowly.
-c1d62ca4-9fe1-4695-a7c9-3f9c00ebb156,2025-10-09T19:59:59,Traffic,High,396,14,Pedestrian struck in a crosswalk. Conscious with a leg injury.
+c1d62ca4-9fe1-4695-a7c9-3f9c00ebb156,2025-10-09T19:59:59,Traffic,High,396,14,"Pedestrian hit by a turning car. Sitting up, holding his knee."
 cb6742de-09da-412b-a448-3e797959fb79,2025-10-14T02:49:57,Police,High,451,18,Caller reports a break-in at a neighbor's house. Back door is open.
 0a9518e9-c085-4c6f-ac05-4ca0ea7ffcc0,2025-10-14T15:45:27,Police,Low,873,25,Suspicious person checking car door handles in a parking lot.
 0e249753-44ba-46d5-bce7-e470ea1c99f5,2025-10-14T18:08:04,Medical,High,348,13,Teen reports a friend with a possible overdose. Friend is breathing slowly.
@@ -78,10 +78,10 @@ cb6742de-09da-412b-a448-3e797959fb79,2025-10-14T02:49:57,Police,High,451,18,Call
 e2f066f1-cc3e-4e56-8a3c-92fb3bf0ef09,2025-10-17T19:59:54,Medical,High,578,12,Worker cut his hand on machinery at a warehouse. Bleeding controlled with a towel.
 adf710c7-e79a-4eeb-b7c7-285ae90d8642,2025-10-25T00:24:09,Medical,High,684,14,Cyclist reports a dislocated shoulder after a fall on a trail.
 f789e578-e98d-4ad6-94b1-c6cec6be26c8,2025-10-26T04:50:14,Fire,Medium,297,21,Electrical fire in a basement panel. Residents have evacuated.
-8accf8b1-de7c-4c49-b1e1-af7a472a9cfa,2025-10-29T19:30:57,Traffic,High,416,19,Wrong-way driver reported on the highway heading north.
+8accf8b1-de7c-4c49-b1e1-af7a472a9cfa,2025-10-29T19:30:57,Traffic,High,416,19,Car driving against traffic in the northbound lanes near exit 12.
 f281e323-32d0-4ad3-8d2d-4c9614921458,2025-10-30T16:58:37,Medical,Low,319,23,Teen reports a friend with a possible overdose. Friend is breathing slowly.
 e7ae1ee1-abb1-4fed-a867-640fedab73c9,2025-11-04T18:21:41,Fire,Low,475,3,Chimney fire reported with sparks landing on the roof.
-756f9013-c611-4ada-aa1c-cb31de6e3bf0,2025-11-07T07:38:47,Traffic,Medium,360,6,Wrong-way driver reported on the highway heading north.
+756f9013-c611-4ada-aa1c-cb31de6e3bf0,2025-11-07T07:38:47,Traffic,Medium,360,6,Car driving against traffic in the northbound lanes near exit 12.
 3e691331-cd22-44cd-b0bb-c5e3b13359b8,2025-11-07T09:16:04,Fire,Medium,347,17,"Brush fire along the highway shoulder, wind pushing it toward houses."
 e163832a-0975-448f-9579-bbfe9225b912,2025-11-12T21:00:17,Fire,Low,656,23,Chimney fire reported with sparks landing on the roof.
 f7d2cac7-a871-4510-a9d7-4cc8c9a67f3c,2025-11-17T17:11:15,Medical,High,593,5,Elderly resident fell at home and cannot stand up. Conscious and breathing.

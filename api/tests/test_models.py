@@ -15,7 +15,7 @@ def test_create_incident():
     with Session(engine) as session:
         incident = Incident(
             id="0b6f2c1e-8d4a-4f3b-9a7e-2c5d1e9f4a10",
-            timestamp=datetime.fromisoformat("2025-01-01T15:45:49"),
+            timestamp=datetime.fromisoformat("2025-02-14T09:30:00"),
             type=IncidentType.FIRE,
             severity=Severity.MEDIUM,
             response_time_seconds=225,

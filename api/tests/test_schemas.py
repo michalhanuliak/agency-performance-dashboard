@@ -5,7 +5,7 @@ from app.schemas import IncidentResponse, StatsResponse, ResponseTimeByType, Sev
 def test_incident_response():
     data = {
         "id": "abc-123",
-        "timestamp": "2025-01-01T15:45:49",
+        "timestamp": "2025-02-14T09:30:00",
         "type": "Fire",
         "severity": "Medium",
         "response_time_seconds": 225,
