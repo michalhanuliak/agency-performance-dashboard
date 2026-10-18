@@ -4,12 +4,12 @@
 
 Decision:
 
-- Stabilization-only changes before the final review.
+- Stabilization-only changes before publishing.
 - No product/UX behavior changes without explicit discussion and approval.
 
 Rationale:
 
-- Keep risk low while improving deploy confidence and reviewer clarity.
+- Keep risk low while improving deploy confidence and clarity for anyone cloning the repo.
 - Avoid introducing regressions late in the project.
 
 Tradeoff:
@@ -85,7 +85,7 @@ Decision:
 Rationale:
 
 - Single source of truth for deployment config.
-- Easy reviewer replication via Blueprint flow.
+- Anyone can replicate the deployment via the Blueprint flow.
 
 Tradeoff:
 

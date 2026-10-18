@@ -2,7 +2,7 @@
 
 ## Overview
 
-Full-stack analytical dashboard for 911 supervisors to monitor operational metrics and identify trends in emergency response data. Built as a time-boxed full-stack exercise.
+Full-stack analytical dashboard for 911 supervisors to monitor operational metrics and identify trends in emergency response data. A personal demo project with synthetic data.
 
 ## Tech Stack
 

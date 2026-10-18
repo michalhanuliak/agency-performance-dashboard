@@ -2,7 +2,9 @@
 
 Full-stack analytical dashboard for 911 supervisors to monitor operational metrics and identify trends in emergency response data.
 
-Built as a time-boxed full-stack exercise, then extended with a configurable widget grid, layout persistence, and a test/CI gate. The 100-incident dataset in `api/data/incidents.csv` is synthetic.
+A personal demo project by Michal Hanuliak, built to show full-stack work end to end: a FastAPI + SQLite API, a React 19 dashboard with a configurable widget grid, layout persistence, and a test/CI gate.
+
+Not affiliated with any 911 agency or company. All data is synthetic: the 100 incidents in `api/data/incidents.csv` are made up, and "Metro 911 Command Center" is a fictional agency.
 
 ![Tech Stack](https://img.shields.io/badge/React_19-blue) ![Tech Stack](https://img.shields.io/badge/FastAPI-green) ![Tech Stack](https://img.shields.io/badge/TypeScript-blue) ![Tech Stack](https://img.shields.io/badge/SQLite-lightgrey)
 
@@ -145,6 +147,10 @@ Deployment steps:
 4. Pushes to the configured branch trigger redeploys.
 
 Detailed runbook: [`docs/deployment.md`](docs/deployment.md)
+
+## License
+
+MIT, see [`LICENSE`](LICENSE).
 
 ## Documentation Index
 
